@@ -1,5 +1,5 @@
-{ "entries" : [
-  {
+{
+  "entries": [{
     "date": "10/1/2018",
     "concept": "Welcome to NSS",
     "entry": "We saw Cohort 27's capstones. Hope I can figure out a fun project",
@@ -16,5 +16,5 @@
     "concept": "Fetching from APIs",
     "entry": "I think I get it. I just feel like I've forgotten everything up to this point. First cry on campus!",
     "mood": "Discouraged"
+}]
 }
-]}
