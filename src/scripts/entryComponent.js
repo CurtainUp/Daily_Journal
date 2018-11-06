@@ -4,7 +4,7 @@ const htmlJournalEntries = Object.create(null, {
       return `
     <div class="entry">
     <h3>${entry.date}</h3>
-    <h4>${entry.concept}</h4>
+    <h4>${entry.concepts}</h4>
     <p>${entry.entry}</p>
     <p>Mood: ${entry.mood}</p>
     </div>`

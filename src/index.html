@@ -9,7 +9,7 @@
 </head>
 <body>
   <h1>Daily Journal</h1>
-  
+
   <form action="">
     <fieldset>
       <label for="journalDate">Date of entry</label>
@@ -21,11 +21,11 @@
     </fieldset>
     <fieldset>
       <label for="journalEntry">Journal Entry</label>
-      <textarea name="journalEntry" style="width: 250px;height: 150px;"></textarea>
+      <textarea name="journalEntry" id="journalEntry" style="width: 250px;height: 150px;"></textarea>
     </fieldset>
     <fieldset>
       <label for="currentMood">Current Mood</label>
-      <select name="currentMood">
+      <select name="currentMood" id="currentMood">
         <option>Feelin' Myself</option>
         <option>Happy Happy Joy Joy</option>
         <option>Discouraged</option>
@@ -34,7 +34,7 @@
         <option>Sleep Deprived</option>
       </select>
     </fieldset>
-    <input type="submit" value="Record Journal Entry">
+    <input class="recordButton" type="button" value="Record Journal Entry">
   </form>
   <article class="entryLog">
   </article>
