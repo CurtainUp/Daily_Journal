@@ -1,20 +1,60 @@
 {
-  "entries": [{
-    "date": "10/1/2018",
-    "concepts": "Welcome to NSS",
-    "entry": "We saw Cohort 27's capstones. Hope I can figure out a fun project",
-    "mood": "Happy Happy Joy Joy"
-  },
-  {
-    "date": "10/4/2018",
-    "concepts": "Linux Subsystem",
-    "entry": "Today we installed our Linux shell and mounted our Windows drive. My brain hurts.",
-    "mood": "Meh"
-  },
-  {
-    "date": "10/19/2018",
-    "concepts": "Fetching from APIs",
-    "entry": "I think I get it. I just feel like I've forgotten everything up to this point. First cry on campus!",
-    "mood": "Discouraged"
-}]
+  "entries": [
+    {
+      "date": "10/1/2018",
+      "concepts": "Welcome to NSS",
+      "entry": "We saw Cohort 27's capstones. Hope I can figure out a fun project",
+      "mood": "Happy Happy Joy Joy",
+      "id": 1
+    },
+    {
+      "date": "10/4/2018",
+      "concepts": "Linux Subsystem",
+      "entry": "Today we installed our Linux shell and mounted our Windows drive. My brain hurts.",
+      "mood": "Meh",
+      "id": 2
+    },
+    {
+      "date": "10/19/2018",
+      "concepts": "Fetching from APIs",
+      "entry": "I think I get it. I just feel like I've forgotten everything up to this point. First cry on campus!",
+      "mood": "Discouraged",
+      "id": 3
+    },
+    {
+      "date": "2018-11-06",
+      "concepts": "Posting",
+      "entry": "I think I figured it out!",
+      "mood": "Feelin' Myself",
+      "id": 4
+    },
+    {
+      "date": "",
+      "concepts": "test",
+      "entry": "test",
+      "mood": "Feelin' Myself",
+      "id": 5
+    },
+    {
+      "date": "2018-11-06",
+      "concepts": "",
+      "entry": "hey",
+      "mood": "Break $h!+",
+      "id": 6
+    },
+    {
+      "date": "",
+      "concepts": "",
+      "entry": "kj",
+      "mood": "Feelin' Myself",
+      "id": 7
+    },
+    {
+      "date": "2018-11-06",
+      "concepts": "validation!",
+      "entry": "working!",
+      "mood": "Happy Happy Joy Joy",
+      "id": 8
+    }
+  ]
 }

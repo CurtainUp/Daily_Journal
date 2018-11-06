@@ -50,8 +50,14 @@ const saveEntry = (entry) => {
 }
 
 // Event listener that calls the entry save function
-document.querySelector(".recordButton").addEventListener("click", () => {
-    const newEntry = createEntry()
-    saveEntry(newEntry)
-    console.log("Entry Saved")
+document.querySelector(".recordButton").addEventListener("click", (event) => {
+    // Check form validation
+    const form = document.getElementsByTagName('form')[0]
+    if (form.checkValidity()) {
+        const newEntry = createEntry()
+        saveEntry(newEntry)
+        console.log("Entry Saved")
+    } else {
+        alert("Please complete all required fields")
+    }
 })
