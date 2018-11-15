@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" media="screen" href="styles/journal.css" />
 </head>
+
 <body>
   <h1>Daily Journal</h1>
 
@@ -34,13 +36,42 @@
         <option>Sleep Deprived</option>
       </select>
     </fieldset>
+    <!-- Using <fieldset>, <legend>, <input type="radio">, and <label> HTML components, construct a set of radio buttons for selecting one of the moods. It's important that each of the radio buttons has the same value for the name attribute, but each should a different value for the value attribute. -->
     <input class="recordButton" type="submit" value="Record Journal Entry">
   </form>
+
+  <form>
+    <fieldset>
+      <legend>Filter Journal Entries by Mood</legend>
+      <div class="moodFilter">
+        <input type="radio" id="moodChoice1" name="mood" value="Feelin' Myself">
+        <label for="moodChoice1">Feelin' Myself</label>
+
+        <input type="radio" id="moodChoice2" name="mood" value="Happy Happy Joy Joy">
+        <label for="moodChoice2">Happy Happy Joy Joy</label>
+
+        <input type="radio" id="moodChoice3" name="mood" value="Discouraged">
+        <label for="moodChoice3">Discouraged</label>
+
+        <input type="radio" id="moodChoice4" name="mood" value="Break $h!+">
+        <label for="moodChoice4">Break $h!+</label>
+
+        <input type="radio" id="moodChoice5" name="mood" value="Meh">
+        <label for="moodChoice5">Meh</label>
+
+        <input type="radio" id="moodChoice6" name="mood" value="Sleep Deprived">
+        <label for="moodChoice6">Sleep Deprived</label>
+      </div>
+    </fieldset>
+  </form>
+
   <article class="entryLog">
   </article>
   <script src="scripts/data.js"></script>
   <script src="scripts/entriesDOM.js"></script>
   <script src="scripts/entryComponent.js"></script>
+  <script src="scripts/filterEntries.js"></script>
   <script src="scripts/journal.js"></script>
 </body>
+
 </html>
