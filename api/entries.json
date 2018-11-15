@@ -27,6 +27,13 @@
       "entry": "Please work.",
       "mood": "Feelin' Myself",
       "id": 4
+    },
+    {
+      "date": "2018-11-15",
+      "concepts": "Nuthsell Project",
+      "entry": "After 6 weeks, I'm starting to feel like I might actually be a developer!",
+      "mood": "Happy Happy Joy Joy",
+      "id": 5
     }
   ]
 }

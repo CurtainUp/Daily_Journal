@@ -9,9 +9,25 @@
 let moodFilterListener = () => {
   let moodRadios = document.getElementsByName("mood")
   moodRadios.forEach(radio => {
-    radio.addEventListener("click", (e) =>
-    moodFetch(e.target.id))
+    radio.addEventListener("click", (e) => {
+      let entryArea = document.querySelector(".entryLog")
+      entryArea.innerHTML = ""
+      API.getEntriesByMood(e.target.value)
+        .then(entries => {
+          // debugger;
+          if (entries.length === 0) {
+            let noMatch = document.createElement("p")
+            noMatch.textContent = "No entries match this filter."
+            insertEntry.renderEntry(noMatch)
+          } else {
+            entries.forEach((entry) => {
+              const singleEntry = journalEntries.createJournalComponent(entry)
+              insertEntry.renderEntry(singleEntry)
+            })
+          }
+        })
+    })
   })
 }
 
-// moodFetch function
+moodFilterListener()
